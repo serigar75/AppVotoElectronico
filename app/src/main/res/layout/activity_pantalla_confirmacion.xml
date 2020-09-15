@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FF"
+    tools:context=".PantallaConfirmacion">
+
+    <LinearLayout
+    android:id="@+id/linearLayout7"
+    android:layout_width="match_parent"
+    android:layout_height="97dp"
+    android:background="#4c4c4e"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.558"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="454dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="Pantalla Confirmación"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="351dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Cortes Generales Albacete"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="368dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="1"
+            android:text="Página 3 de 4"
+            android:textAlignment="viewEnd"
+            android:textColor="#FFFFFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="580dp"
+        android:layout_height="203dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:onClick="ConfirmaVotacion"
+            android:text="Confirmar"
+            app:autoSizeTextType="uniform" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="1151dp"
+        android:layout_height="239dp"
+        android:background="#F0F0F0"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="604dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            app:srcCompat="@drawable/jubilados" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="519dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="center_vertical"
+            android:text="Candidatos"
+            android:textColor="#000000"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="1120dp"
+        android:layout_height="128dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="1000dp"
+            android:layout_height="172dp"
+            android:layout_weight="1"
+            android:text="Candidatura Seleccionada:"
+            app:autoSizeTextType="uniform" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="578dp"
+        android:layout_height="204dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="VuelveVotacion"
+            android:text="Corregir"
+            app:autoSizeTextType="uniform" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
