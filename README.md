@@ -3,4 +3,4 @@
 ### Autor: Sergio Íñiguez García
 ### Tutor: Alberto Corbí Bellot
 
-Aplicación desarrollada en Android Studio 3.6.1 para la visualización de la interfaz gráfica de una mesa electoral electrónica.
+Aplicación desarrollada en Android Studio 3.6.1 para la sección 7 del TFG donde se desarrolla la implementación del concepto de posible interfaz gráfica en una mesa electoral electrónica.
